@@ -1,20 +1,29 @@
 {
   "name": "journey-visualizer",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "deploy": "vite build && netlify deploy"
+    "deploy": "vite build && netlify deploy",
+    "format": "prettier --write \"{,!(node_modules)/**/}*.js\"",
+    "lint": "eslint --ext .js --ignore-path .gitignore . "
   },
   "dependencies": {
+    "mapbox-gl": "^2.6.0",
     "react": "^17.0.0",
     "react-dom": "^17.0.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^1.0.0",
     "autoprefixer": "^10.4.0",
+    "eslint": "^8.2.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.26.1",
     "postcss": "^8.3.11",
+    "prettier": "^2.4.1",
     "tailwindcss": "^2.2.19",
     "vite": "^2.6.4"
   }
