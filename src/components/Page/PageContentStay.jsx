@@ -1,9 +1,8 @@
-import React, { useState } from 'react'
+import React, { useState, forwardRef } from 'react'
 
 import IconChevronRight from '@/components/Icon/IconChevronRight'
 import ImagesModal from '@/components/Images/ImagesModal'
 import { format } from 'date-fns'
-import { forwardRef } from 'react/cjs/react.development'
 
 const PageContentStay = forwardRef(
   ({ itemStartDate, itemEndDate, place, durationNights, images }, ref) => {
