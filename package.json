@@ -22,9 +22,7 @@
     "react-dom": "^17.0.0",
     "react-map-gl": "^6.1.17",
     "react-slick": "^0.28.1",
-    "react-spring": "^9.3.2",
     "react-use": "^17.3.2",
-    "scroll-snap": "^3.2.4",
     "three": "^0.134.0",
     "threebox-plugin": "^2.2.5"
   },
