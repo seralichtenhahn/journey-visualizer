@@ -5,3 +5,9 @@ dist-ssr
 *.local
 # Local Netlify folder
 .netlify
+
+# env
+.env
+.env.local
+.env.cci
+.env.production
