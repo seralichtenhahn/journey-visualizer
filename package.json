@@ -1,6 +1,7 @@
 {
   "name": "journey-visualizer",
   "version": "0.0.1",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -22,6 +23,7 @@
     "react-map-gl": "^6.1.17",
     "react-slick": "^0.28.1",
     "react-spring": "^9.3.2",
+    "react-use": "^17.3.2",
     "scroll-snap": "^3.2.4",
     "three": "^0.134.0",
     "threebox-plugin": "^2.2.5"
@@ -30,7 +32,7 @@
     "@vitejs/plugin-react": "^1.0.0",
     "autoprefixer": "^10.4.0",
     "cssnano": "^5.0.12",
-    "eslint": "^8.2.0",
+    "eslint": "^7.0.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-react": "^1.1.7",
     "eslint-plugin-prettier": "^4.0.0",
