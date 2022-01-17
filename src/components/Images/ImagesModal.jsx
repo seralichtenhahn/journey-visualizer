@@ -48,12 +48,12 @@ export default function ImagesModal({ images, open, onClose }) {
             <div className="relative w-full">
               <button
                 onClick={onClose}
-                className="absolute top-0 z-10 p-4 text-gray-500 border border-white rounded-full transform -translate-y-1/2 right-8"
+                className="absolute top-0 z-10 p-4 text-gray-500 transform -translate-y-1/2 border border-white rounded-full right-8"
               >
                 <span className="sr-only">back to main content</span>
                 <IconClose className="w-6 h-6" />
               </button>
-              <div className="">
+              <div>
                 <Slider {...settings}>
                   {images.map((image) => (
                     <img
