@@ -1,20 +1,25 @@
 import IconTag from '@/components/Common/IconTag'
-import React from 'react'
+import React, { forwardRef } from 'react'
 import { format } from 'date-fns'
-import usePageData from '@/hooks/usePageData'
+import journey from '@/assets/data/journey.json'
 
-export default function PageContentOverview() {
-  const { title, startDate, endDate, details } = usePageData()
-
+const PageContentOverview = forwardRef((props, ref) => {
+  const { journeyTitle, details, journeyItems } = journey.data
   const { numberOfAdults, numberOfRooms, numberOfNights } = details
 
-  const startDateFormatted = format(new Date(startDate), 'MMMM d')
-  const endDateFormatted = format(new Date(endDate), 'MMMM d, yyyy')
+  const startDateFormatted = format(
+    new Date(journeyItems[0].itemStartDate),
+    'MMMM d',
+  )
+  const endDateFormatted = format(
+    new Date(journeyItems[journeyItems.length - 1].itemEndDate),
+    'MMMM d, yyyy',
+  )
 
   return (
-    <div className="flex flex-col justify-center h-full md:transform md:-translate-y-8">
+    <div ref={ref} className="flex flex-col justify-center h-full">
       <h1 className="font-serif text-4xl font-bold leading-relaxed xl:text-6xl xl:leading-tight">
-        {title}
+        {journeyTitle}
       </h1>
       <p className="mt-4 text-2xl text-gray-600">
         {startDateFormatted} - {endDateFormatted}
@@ -34,4 +39,6 @@ export default function PageContentOverview() {
       </div>
     </div>
   )
-}
+})
+
+export default PageContentOverview
