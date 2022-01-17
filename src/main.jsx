@@ -1,7 +1,10 @@
+import '@/assets/styles/index.css'
+import '@/assets/styles/slider.css'
+import 'mapbox-gl/dist/mapbox-gl.css'
+
+import App from './App'
 import React from 'react'
 import ReactDOM from 'react-dom'
-import '@/assets/styles/index.css'
-import App from './App'
 
 ReactDOM.render(
   <React.StrictMode>
