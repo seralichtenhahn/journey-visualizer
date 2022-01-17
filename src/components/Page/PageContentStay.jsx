@@ -27,7 +27,7 @@ const PageContentStay = forwardRef(
         <p className="mt-4 text-2xl text-gray-600">
           {startDateFormatted} - {endDateFormatted}
         </p>
-        <h1 className="font-serif text-4xl leading-relaxed max-w-prose xl:text-6xl xl:leading-tight">
+        <h1 className="font-serif text-4xl md:leading-relaxed max-w-prose xl:text-6xl xl:leading-tight">
           <span className="font-bold">{`${durationNights} nights`}</span> in{' '}
           <span className="font-bold">{place.locationName}</span>
         </h1>

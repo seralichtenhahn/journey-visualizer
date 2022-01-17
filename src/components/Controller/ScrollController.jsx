@@ -25,7 +25,6 @@ export default function ScrollController() {
         return
       }
 
-      const isScrollingDown = movement[1] > 0
       const progress = Math.floor(
         (Math.abs(offset[1] - page * window.innerHeight) / window.innerHeight) *
           100,
