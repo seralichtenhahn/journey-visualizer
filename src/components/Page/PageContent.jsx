@@ -50,17 +50,17 @@ export default function PageContent() {
   }, [page])
 
   return (
-    <div className="h-full py-6 pl-6">
+    <div className="w-full h-full md:w-auto md:py-6 md:pl-6">
       <Transition
         as={Fragment}
         show={isShowing}
         appear
         enter="transform transition duration-[400ms] ease-in-out"
-        enterFrom="opacity-0 translate-y-8"
-        enterTo="opacity-100 translate-y-0"
+        enterFrom="opacity-0 translate-x-8 md:translate-x-0 md:translate-y-8"
+        enterTo="opacity-100 md:translate-y-0"
         leave="transform transition duration-[400ms] ease-in-out"
-        leaveFrom="opacity-100 -translate-y-0"
-        leaveTo="opacity-0 -translate-y-8"
+        leaveFrom="opacity-100 md:-translate-y-0"
+        leaveTo="opacity-0 -translate-x-8 md:translate-x-0 md:-translate-y-8"
       >
         {Content}
       </Transition>

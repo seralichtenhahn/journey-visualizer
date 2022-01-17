@@ -1,11 +1,13 @@
 import ReactMapGL, { NavigationControl } from 'react-map-gl'
 import { useEffect, useState } from 'react'
+import useIsMobile from '@/hooks/useIsMobile'
 
 import ViewportContext from '@/contexts/ViewportContext'
 
 function Map({ children, sidebarWidth = 3 / 4 }) {
+  const isMobile = useIsMobile()
   const [viewport, setViewport] = useState({
-    width: window.innerWidth * sidebarWidth,
+    width: window.innerWidth * (isMobile ? 1 : sidebarWidth),
     height: window.innerHeight,
     position: [0, 0, 0],
   })
@@ -14,7 +16,7 @@ function Map({ children, sidebarWidth = 3 / 4 }) {
     const handler = () => {
       setViewport((v) => ({
         ...v,
-        width: window.innerWidth * sidebarWidth,
+        width: window.innerWidth * (isMobile ? 1 : sidebarWidth),
         height: window.innerHeight,
       }))
     }
@@ -26,8 +28,6 @@ function Map({ children, sidebarWidth = 3 / 4 }) {
       window.removeEventListener('orientationchange', handler)
     }
   }, [])
-
-  console.log(viewport)
 
   return (
     <ViewportContext.Provider value={{ viewport, setViewport }}>

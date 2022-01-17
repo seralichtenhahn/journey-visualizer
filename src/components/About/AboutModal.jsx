@@ -75,8 +75,12 @@ export default function AboutModal() {
                   <span className="sr-only">back to main content</span>
                   <IconClose className="w-6 h-6" />
                 </button>
-                <div className="grid grid-cols-3">
-                  <img src={imageUrl} alt="Me" className="w-full h-full" />
+                <div className="md:grid md:grid-cols-3">
+                  <img
+                    src={imageUrl}
+                    alt="Me"
+                    className="object-cover w-full h-48 md:h-full "
+                  />
                   <div className="flex flex-col justify-center flex-1 col-span-2 p-4">
                     <Dialog.Title
                       as="h3"

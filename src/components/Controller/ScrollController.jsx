@@ -2,6 +2,7 @@ import { useCallback, useEffect, useRef, useState } from 'react'
 
 import usePageData from '@/hooks/usePageData'
 import { useScroll } from '@use-gesture/react'
+import useIsMobile from '@/hooks/useIsMobile'
 
 export default function ScrollController() {
   const {
@@ -13,6 +14,7 @@ export default function ScrollController() {
     setNavigationMode,
   } = usePageData()
   const controllerContainer = useRef(null)
+  const isMobile = useIsMobile()
 
   useScroll(
     (options) => {
@@ -29,7 +31,6 @@ export default function ScrollController() {
           100,
       )
       const currentPage = Math.floor(offset[1] / window.innerHeight)
-      console.log({ currentPage, progress })
 
       setPage(currentPage, { navigationMode: 'scroll' })
       setProgress(progress)
@@ -44,6 +45,10 @@ export default function ScrollController() {
       window.scrollTo(0, page * window.innerHeight)
     }
   }, [page])
+
+  if (isMobile) {
+    return null
+  }
 
   return (
     <div aria-hidden="false" ref={controllerContainer}>

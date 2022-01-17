@@ -2,8 +2,8 @@ import { LinearInterpolator, TRANSITION_EVENTS } from 'react-map-gl'
 import { along, distance, lineString } from '@turf/turf'
 
 import { getBoundsOfPlaces } from '@/utils'
-import mapboxgl from 'mapbox-gl'
 import { useEffect } from 'react'
+import useIsMobile from '@/hooks/useIsMobile'
 import usePageData from '@/hooks/usePageData'
 import useViewport from '@/hooks/useViewport'
 
@@ -18,6 +18,7 @@ const transition = {
 export default function Camera() {
   const { viewport, setViewport } = useViewport()
   const { places, page, type, navigationMode, progress } = usePageData()
+  const isMobile = useIsMobile()
 
   useEffect(() => {
     if (navigationMode === 'scroll' && type === 'Leg') {
@@ -42,6 +43,16 @@ export default function Camera() {
     const { latitude, longitude, zoom } = getBoundsOfPlaces({
       places,
       viewport,
+      ...(isMobile && {
+        options: {
+          padding: {
+            top: 120,
+            bottom: (window.innerHeight / 10) * 5,
+            left: 48,
+            right: 48,
+          },
+        },
+      }),
     })
 
     setViewport((v) => ({

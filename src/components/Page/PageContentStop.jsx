@@ -23,7 +23,7 @@ const PageContentStop = forwardRef(
     return (
       <div
         ref={ref}
-        className="flex flex-col justify-center h-full md:transform md:-translate-y-8"
+        className="flex flex-col h-full px-4 pt-6 overflow-y-scroll bg-white md:px-0 md:pt-0 md:overflow-y-auto md:bg-transparent rounded-xl md:rounded-none md:justify-center"
       >
         <p className="mt-4 text-2xl text-gray-600">
           {startDateFormatted} - {endDateFormatted}
