@@ -93,7 +93,7 @@ export default function AboutModal() {
                     </Dialog.Title>
                     <div className="mt-2">
                       <p className="text-gray-500">
-                        I'm a creative developer based in London. Currentöly I'm
+                        I'm a creative developer based in London. Currently I'm
                         studying creative Computing at the Creative Computing
                         Institute. In this project, I try to visualize my
                         favourite holiday I ever took. It's a journey to the
