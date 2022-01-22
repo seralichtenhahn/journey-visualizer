@@ -8,36 +8,17 @@
       "numberOfRooms": 1,
       "numberOfNights": 7
     },
-    "regions": [
-      {
-        "id": 1,
-        "regionName": "Highlands",
-        "shortName": "highlands",
-        "imageUrl": "https://uploads-ssl.webflow.com/5e709c90bf3d8e4bba851ecb/5f492b34672ab70dca897a11_Screen%20Shot%202020-08-28%20at%2017.04.36.jpg",
-        "article": "the",
-        "generalInformation": "",
-        "internalUseOnly": false
-      }
-    ],
     "journeyItems": [
       {
         "@type": "Leg",
         "itemStartDate": "2022-05-30",
         "itemEndDate": "2022-05-31",
-        "status": "TO_BE_CONFIRMED",
-        "bookingConfirmationNumber": null,
-        "voucher": null,
-        "paymentStatus": "PREPAY",
-        "nett": { "currencyId": "GBP", "value": 250.0 },
-        "retail": { "currencyId": "GBP", "value": 250.0 },
         "itemId": 0,
         "id": "S6031",
         "estimatedMinutes": 452,
         "estimatedDistance": 0,
         "title": null,
-        "interRegion": true,
         "description": "A late evening departure from Euston station in London, then an overnight run in the comfort of your private cabin to reach Glasgow for breakfast.",
-        "additionalInformation": null,
         "fromPlace": {
           "id": 26,
           "regionIds": [],
@@ -55,7 +36,6 @@
           "image": "https://uploads-ssl.webflow.com/5e709c90bf3d8e4bba851ecb/6053743c7fd5061a925eab82_image%20(46).jpg"
         },
         "numberOfNights": 1,
-        "transportDirection": "TO_REGION",
         "images": [
           {
             "url": "https://uploads-ssl.webflow.com/5e709c90bf3d8e4bba851ecb/5f19654c77a6a10ff105afe2_sleeper.png",
@@ -64,30 +44,17 @@
             "credit": null
           },
           {
-            "url": "https://uploads-ssl.webflow.com/5e709c90bf3d8e4bba851ecb/5f19654c77a6a10ff105afe2_sleeper.png",
-            "tag": null,
-            "source": null,
-            "credit": null
-          },
-          {
-            "url": "https://uploads-ssl.webflow.com/5e709c90bf3d8e4bba851ecb/5f19654c77a6a10ff105afe2_sleeper.png",
+            "url": "https://images.unsplash.com/photo-1596454408377-1f829e26fbfc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
             "tag": null,
             "source": null,
             "credit": null
           }
-        ],
-        "simpleItineraryItems": null
+        ]
       },
       {
         "@type": "Stay",
         "itemStartDate": "2022-05-31",
         "itemEndDate": "2022-06-03",
-        "status": "TO_BE_CONFIRMED",
-        "bookingConfirmationNumber": null,
-        "voucher": null,
-        "paymentStatus": "PREPAY",
-        "nett": { "currencyId": "GBP", "value": 317.08 },
-        "retail": { "currencyId": "GBP", "value": 364.64 },
         "itemId": 1,
         "possibleActivities": [
           {
@@ -131,41 +98,6 @@
             "imageUrl": null
           }
         ],
-        "accommodation": {
-          "id": 3140,
-          "title": "Carlton George Hotel",
-          "ranking": 100,
-          "address": "44 W George St, Glasgow G2 1DH",
-          "channel": "DOTW",
-          "channelCode": "571405",
-          "indicativeBoardBasis": null,
-          "instantlyBookable": true,
-          "geoCoordinates": { "latitude": 55.86195, "longitude": -4.25296 },
-          "description": "Right by Queen Street Station and very close to the Buchanan Street area (full of bars, shops and restaurants), this is an upmarket hotel offering great service and beautiful rooms. The rooftop restaurant with its views over the city is highly recommended. Our rooms give Byway travellers access to the hotel's executive lounge.",
-          "phone": "",
-          "socialNetwork": "",
-          "socialHandle": "",
-          "publicNotes": "",
-          "checkinTime": null,
-          "checkoutTime": null,
-          "images": [
-            {
-              "url": "https://uploads-ssl.webflow.com/5e709c90bf3d8e4bba851ecb/60bf4981e812a2df1cb1898c_CARLTONGEOERGE.jpg",
-              "tag": "The elegant lobby and entrance",
-              "source": "",
-              "credit": ""
-            },
-            {
-              "url": "https://uploads-ssl.webflow.com/5e709c90bf3d8e4bba851ecb/60bf4a07bed2cd29f64e3cc5_carltongeorgeview.jpg",
-              "tag": "The view from the hotel's rooftop restaurant across central Glasgow",
-              "source": "",
-              "credit": ""
-            }
-          ],
-          "chosenRoomName": null,
-          "chosenRoomCode": null,
-          "chosenBoardBasis": null
-        },
         "place": {
           "id": -1,
           "regionIds": [1],
@@ -174,26 +106,38 @@
           "description": "Scotland's largest city, Glasgow is sophisticated, earthy and impressive.",
           "image": "https://uploads-ssl.webflow.com/5e709c90bf3d8e4bba851ecb/6053743c7fd5061a925eab82_image%20(46).jpg"
         },
-        "durationNights": 3
+        "durationNights": 3,
+        "images": [
+          {
+            "url": "https://images.unsplash.com/photo-1571494146906-86de15d3817b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1388&q=80",
+            "tag": "The elegant lobby and entrance",
+            "source": "",
+            "credit": ""
+          },
+          {
+            "url": "https://uploads-ssl.webflow.com/5e709c90bf3d8e4bba851ecb/60bf4981e812a2df1cb1898c_CARLTONGEOERGE.jpg",
+            "tag": "The elegant lobby and entrance",
+            "source": "",
+            "credit": ""
+          },
+          {
+            "url": "https://uploads-ssl.webflow.com/5e709c90bf3d8e4bba851ecb/60bf4a07bed2cd29f64e3cc5_carltongeorgeview.jpg",
+            "tag": "The view from the hotel's rooftop restaurant across central Glasgow",
+            "source": "",
+            "credit": ""
+          }
+        ]
       },
       {
         "@type": "Leg",
         "itemStartDate": "2022-06-03",
         "itemEndDate": "2022-06-03",
-        "status": "TO_BE_CONFIRMED",
-        "bookingConfirmationNumber": null,
-        "voucher": null,
-        "paymentStatus": "PREPAY",
-        "nett": { "currencyId": "GBP", "value": 10.0 },
-        "retail": { "currencyId": "GBP", "value": 10.0 },
         "itemId": 2,
         "id": "S5894",
         "estimatedMinutes": 181,
         "estimatedDistance": 0,
         "title": null,
-        "interRegion": false,
         "description": "Join the West Highland Line heading west from Glasgow and alight at Arrochar and Tarbet to stop at Loch Lomond in the Trossachs National Park. Enjoy a wander, cycle or kayak around the Loch Lomond (we can tell you where to leave your bag), then rejoin the train and settle back to soak up incredible views along the West Highland Line onwards to the port of Oban - one of the most scenic rail routes in the world.",
-        "additionalInformation": null,
         "fromPlace": {
           "id": -1,
           "regionIds": [1],
@@ -211,27 +155,28 @@
           "image": "https://uploads-ssl.webflow.com/5e709c90bf3d8e4bba851ecb/605376df408ffc15f39bfcf6_image%20(52).jpg"
         },
         "numberOfNights": 0,
-        "transportDirection": "INTRA_REGION",
         "images": [
+          {
+            "url": "https://images.unsplash.com/photo-1605127318085-495469a9c791?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80",
+            "tag": null,
+            "source": null,
+            "credit": null
+          },
           {
             "url": "https://uploads-ssl.webflow.com/5e709c90bf3d8e4bba851ecb/6074880f8ac5002bdcb10a9c_image%20-%202021-04-12T184856.248.jpg",
             "tag": null,
             "source": null,
             "credit": null
           }
-        ],
-        "simpleItineraryItems": null
+        ]
       },
       {
         "@type": "Stop",
         "itemStartDate": "2022-06-03",
         "itemEndDate": "2022-06-03",
         "status": "PAY_ON_THE_DAY",
-        "bookingConfirmationNumber": null,
         "voucher": null,
         "paymentStatus": "POSTPAY",
-        "nett": null,
-        "retail": null,
         "itemId": 3,
         "possibleActivities": [
           {
@@ -259,6 +204,20 @@
             "imageUrl": null
           }
         ],
+        "images": [
+          {
+            "url": "https://images.unsplash.com/photo-1589315751941-9b3c84b12c9a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1467&q=80",
+            "tag": null,
+            "source": null,
+            "credit": null
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1633173942271-c4c4336146d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80",
+            "tag": null,
+            "source": null,
+            "credit": null
+          }
+        ],
         "place": {
           "id": 5,
           "regionIds": [1],
@@ -272,20 +231,12 @@
         "@type": "Leg",
         "itemStartDate": "2022-06-03",
         "itemEndDate": "2022-06-03",
-        "status": "TO_BE_CONFIRMED",
-        "bookingConfirmationNumber": null,
-        "voucher": null,
-        "paymentStatus": "PREPAY",
-        "nett": { "currencyId": "GBP", "value": 40.0 },
-        "retail": { "currencyId": "GBP", "value": 40.0 },
         "itemId": 4,
         "id": "S6040",
         "estimatedMinutes": 46,
         "estimatedDistance": 0,
         "title": null,
-        "interRegion": false,
         "description": "Catch the ferry from the port of Oban towards Craignure (Mull), enjoying the sea breeze as you make your way across the water.",
-        "additionalInformation": null,
         "fromPlace": {
           "id": 5,
           "regionIds": [1],
@@ -303,27 +254,25 @@
           "image": "https://uploads-ssl.webflow.com/5e709c90bf3d8e4bba851ecb/605375020524e0e2e209394a_image%20(49).jpg"
         },
         "numberOfNights": 0,
-        "transportDirection": "INTRA_REGION",
         "images": [
           {
             "url": "https://uploads-ssl.webflow.com/5e709c90bf3d8e4bba851ecb/5f19788af080605ba6bb4a96_GLAS-MULL.jpeg",
             "tag": null,
             "source": null,
             "credit": null
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1633833120738-f1c09c5cb859?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+            "tag": null,
+            "source": null,
+            "credit": null
           }
-        ],
-        "simpleItineraryItems": null
+        ]
       },
       {
         "@type": "Stay",
         "itemStartDate": "2022-06-03",
         "itemEndDate": "2022-06-07",
-        "status": "TO_BE_CONFIRMED",
-        "bookingConfirmationNumber": null,
-        "voucher": null,
-        "paymentStatus": "PREPAY",
-        "nett": { "currencyId": "GBP", "value": 620.0 },
-        "retail": { "currencyId": "GBP", "value": 620.0 },
         "itemId": 5,
         "possibleActivities": [
           {
@@ -335,47 +284,6 @@
             "imageUrl": null
           }
         ],
-        "accommodation": {
-          "id": 597523,
-          "title": "Pennygate Lodge",
-          "ranking": 50,
-          "address": "Off A849 Pennygate Lodge, Craignure, PA65 6AY, United Kingdom",
-          "channel": "",
-          "channelCode": null,
-          "indicativeBoardBasis": "BB",
-          "instantlyBookable": false,
-          "geoCoordinates": { "latitude": 56.46807, "longitude": -5.69827 },
-          "description": "Elegant Georgian guest house with beautiful décor, six spacious individually designed rooms and a superb restaurant.",
-          "phone": "",
-          "socialNetwork": "",
-          "socialHandle": "",
-          "publicNotes": "",
-          "checkinTime": null,
-          "checkoutTime": null,
-          "images": [
-            {
-              "url": "https://uploads-ssl.webflow.com/5e709c90bf3d8e4bba851ecb/6089b69c1c3cf18df15a705b_pemygate.jpg",
-              "tag": "",
-              "source": "",
-              "credit": ""
-            },
-            {
-              "url": "https://uploads-ssl.webflow.com/5e709c90bf3d8e4bba851ecb/6089b650a5d7d0ce8edf84a4_pennygate%20room.jpg",
-              "tag": "",
-              "source": "",
-              "credit": ""
-            },
-            {
-              "url": "https://uploads-ssl.webflow.com/5e709c90bf3d8e4bba851ecb/6089b6bfa5d7d06a26df880b_pennygate%20brekkie.jpg",
-              "tag": "",
-              "source": "",
-              "credit": ""
-            }
-          ],
-          "chosenRoomName": null,
-          "chosenRoomCode": null,
-          "chosenBoardBasis": null
-        },
         "place": {
           "id": 4,
           "regionIds": [1],
@@ -384,26 +292,38 @@
           "description": "On the water's edge overlooking the Sound of Mull, this small town is home to the main ferry port for crossings to the mainland and the best place on the island for getting around by bus.",
           "image": "https://uploads-ssl.webflow.com/5e709c90bf3d8e4bba851ecb/605375020524e0e2e209394a_image%20(49).jpg"
         },
-        "durationNights": 4
+        "durationNights": 4,
+        "images": [
+          {
+            "url": "https://uploads-ssl.webflow.com/5e709c90bf3d8e4bba851ecb/6089b69c1c3cf18df15a705b_pemygate.jpg",
+            "tag": "",
+            "source": "",
+            "credit": ""
+          },
+          {
+            "url": "https://uploads-ssl.webflow.com/5e709c90bf3d8e4bba851ecb/6089b650a5d7d0ce8edf84a4_pennygate%20room.jpg",
+            "tag": "",
+            "source": "",
+            "credit": ""
+          },
+          {
+            "url": "https://uploads-ssl.webflow.com/5e709c90bf3d8e4bba851ecb/6089b6bfa5d7d06a26df880b_pennygate%20brekkie.jpg",
+            "tag": "",
+            "source": "",
+            "credit": ""
+          }
+        ]
       },
       {
         "@type": "Leg",
         "itemStartDate": "2022-06-07",
         "itemEndDate": "2022-06-07",
-        "status": "TO_BE_CONFIRMED",
-        "bookingConfirmationNumber": null,
-        "voucher": null,
-        "paymentStatus": "PREPAY",
-        "nett": { "currencyId": "GBP", "value": 40.0 },
-        "retail": { "currencyId": "GBP", "value": 40.0 },
         "itemId": 6,
         "id": "S5984",
         "estimatedMinutes": 60,
         "estimatedDistance": 0,
         "title": null,
-        "interRegion": false,
         "description": "Join the West Coast Motors bus to travel along the beautiful coastline to Tobermory. Sit on the right hand side for the best views over the Sound of Mull (pay the driver on board).",
-        "additionalInformation": null,
         "fromPlace": {
           "id": 4,
           "regionIds": [1],
@@ -421,27 +341,25 @@
           "image": "https://uploads-ssl.webflow.com/5e709c90bf3d8e4bba851ecb/605374b75bfbeb04f4fe0d47_image%20(48).jpg"
         },
         "numberOfNights": 0,
-        "transportDirection": "INTRA_REGION",
         "images": [
           {
             "url": "https://uploads-ssl.webflow.com/5e709c90bf3d8e4bba851ecb/608016e20961d63acc9b438a_image%20-%202021-04-21T131318.477.jpg",
             "tag": null,
             "source": null,
             "credit": null
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1611139014630-18a8428d7ed4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+            "tag": null,
+            "source": null,
+            "credit": null
           }
-        ],
-        "simpleItineraryItems": null
+        ]
       },
       {
         "@type": "Stay",
         "itemStartDate": "2022-06-07",
         "itemEndDate": "2022-06-11",
-        "status": "TO_BE_CONFIRMED",
-        "bookingConfirmationNumber": null,
-        "voucher": null,
-        "paymentStatus": "PREPAY",
-        "nett": { "currencyId": "GBP", "value": 460.0 },
-        "retail": { "currencyId": "GBP", "value": 460.0 },
         "itemId": 7,
         "possibleActivities": [
           {
@@ -493,35 +411,6 @@
             "imageUrl": null
           }
         ],
-        "accommodation": {
-          "id": 3224,
-          "title": "Stylish and homely B&B",
-          "ranking": 50,
-          "address": "",
-          "channel": "",
-          "channelCode": null,
-          "indicativeBoardBasis": "BB",
-          "instantlyBookable": false,
-          "geoCoordinates": { "latitude": 56.51089, "longitude": -5.91665 },
-          "description": "A beautiful bright farmhouse with tastefully decorated, light bedrooms, in the countryside just a 20 minute bus from Tobermory.",
-          "phone": null,
-          "socialNetwork": null,
-          "socialHandle": null,
-          "publicNotes": null,
-          "checkinTime": null,
-          "checkoutTime": null,
-          "images": [
-            {
-              "url": "https://uploads-ssl.webflow.com/5e709c90bf3d8e4bba851ecb/601be6181ec23d19a7a6e61f_challachally.jpg",
-              "tag": "Lounge",
-              "source": "https://www.largeholidayhousemull.co.uk/",
-              "credit": ""
-            }
-          ],
-          "chosenRoomName": null,
-          "chosenRoomCode": null,
-          "chosenBoardBasis": null
-        },
         "place": {
           "id": 2,
           "regionIds": [1],
@@ -530,26 +419,32 @@
           "description": "The Isle of Mull's pretty main burgh with a wide harbour lined with colourful houses. You'll find beautiful countryside, cosy pubs and fresh seafood on your doorstep.",
           "image": "https://uploads-ssl.webflow.com/5e709c90bf3d8e4bba851ecb/605374b75bfbeb04f4fe0d47_image%20(48).jpg"
         },
+        "images": [
+          {
+            "url": "https://images.unsplash.com/photo-1601260912908-09539e3f0c1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHRvYmVybW9yeXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+            "tag": "Lounge",
+            "source": "https://www.largeholidayhousemull.co.uk/",
+            "credit": ""
+          },
+          {
+            "url": "https://uploads-ssl.webflow.com/5e709c90bf3d8e4bba851ecb/601be6181ec23d19a7a6e61f_challachally.jpg",
+            "tag": "Lounge",
+            "source": "https://www.largeholidayhousemull.co.uk/",
+            "credit": ""
+          }
+        ],
         "durationNights": 4
       },
       {
         "@type": "Leg",
         "itemStartDate": "2022-06-11",
         "itemEndDate": "2022-06-11",
-        "status": "TO_BE_CONFIRMED",
-        "bookingConfirmationNumber": null,
-        "voucher": null,
-        "paymentStatus": "PREPAY",
-        "nett": { "currencyId": "GBP", "value": 68.6 },
-        "retail": { "currencyId": "GBP", "value": 68.6 },
         "itemId": 8,
         "id": "S6158",
         "estimatedMinutes": 425,
         "estimatedDistance": 0,
         "title": null,
-        "interRegion": false,
         "description": "Perhaps too early a start for some travellers (let us know if you want an alternative!), but those who opt for this route are rewarded by some spectacular scenery. Take the first boat of the day from Tobermory to Kilchoan, where bus 506 waits for the onward journey to Fort William. It’s rated as one of Scotland’s finest bus routes, skirting the shores of Loch Sunart and Loch Linnhe (both services are 'turn up and go', so have your fare ready). From Fort William, take the bus across the water to Portree on the Isle of Skye.",
-        "additionalInformation": null,
         "fromPlace": {
           "id": 2,
           "regionIds": [1],
@@ -567,7 +462,6 @@
           "image": "https://images.unsplash.com/photo-1473951298521-f0f27c6bda7b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
         },
         "numberOfNights": 0,
-        "transportDirection": "INTRA_REGION",
         "images": [
           {
             "url": "https://images.unsplash.com/photo-1597202496047-8af47ddf05da?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80",
@@ -575,19 +469,12 @@
             "source": null,
             "credit": null
           }
-        ],
-        "simpleItineraryItems": null
+        ]
       },
       {
         "@type": "Stay",
         "itemStartDate": "2022-06-11",
         "itemEndDate": "2022-06-14",
-        "status": "TO_BE_CONFIRMED",
-        "bookingConfirmationNumber": null,
-        "voucher": null,
-        "paymentStatus": "PREPAY",
-        "nett": { "currencyId": "GBP", "value": 377.61 },
-        "retail": { "currencyId": "GBP", "value": 434.26 },
         "itemId": 9,
         "possibleActivities": [
           {
@@ -631,35 +518,20 @@
             "imageUrl": null
           }
         ],
-        "accommodation": {
-          "id": 1488044,
-          "title": "Creagory Skye",
-          "ranking": 100,
-          "address": "Dunvegan Road, Portree IV51 9HD",
-          "channel": "DOTW",
-          "channelCode": "4271315",
-          "indicativeBoardBasis": null,
-          "instantlyBookable": true,
-          "geoCoordinates": { "latitude": 57.41524, "longitude": -6.20682 },
-          "description": "Creagory Skye offers quality bed and breakfast accommodation five minutes from the centre of Portree. Expect lovely and comfortable rooms, welcoming and helpful hosts and a very good breakfast.",
-          "phone": "",
-          "socialNetwork": "",
-          "socialHandle": "",
-          "publicNotes": "",
-          "checkinTime": null,
-          "checkoutTime": null,
-          "images": [
-            {
-              "url": "https://uploads-ssl.webflow.com/5e709c90bf3d8e4bba851ecb/60daf94531d4fc4bba7a1356_creagory-skye.jpg",
-              "tag": "The breakfast room",
-              "source": "",
-              "credit": ""
-            }
-          ],
-          "chosenRoomName": null,
-          "chosenRoomCode": null,
-          "chosenBoardBasis": null
-        },
+        "images": [
+          {
+            "url": "https://images.unsplash.com/photo-1589807867645-53afff92b7d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80",
+            "tag": "The breakfast room",
+            "source": "",
+            "credit": ""
+          },
+          {
+            "url": "https://uploads-ssl.webflow.com/5e709c90bf3d8e4bba851ecb/60daf94531d4fc4bba7a1356_creagory-skye.jpg",
+            "tag": "The breakfast room",
+            "source": "",
+            "credit": ""
+          }
+        ],
         "place": {
           "id": 7,
           "regionIds": [1],
@@ -674,20 +546,12 @@
         "@type": "Leg",
         "itemStartDate": "2022-06-14",
         "itemEndDate": "2022-06-14",
-        "status": "TO_BE_CONFIRMED",
-        "bookingConfirmationNumber": null,
-        "voucher": null,
-        "paymentStatus": "PREPAY",
-        "nett": { "currencyId": "GBP", "value": 34.21 },
-        "retail": { "currencyId": "GBP", "value": 34.21 },
         "itemId": 10,
         "id": "S6119",
         "estimatedMinutes": 230,
         "estimatedDistance": 0,
         "title": null,
-        "interRegion": false,
         "description": "From Portree, leave the Isle of Skye by taking the bus down to Armadale (pay the driver for your fare) where you'll board the ferry to Mallaig. Back on the mainland, take the West Highland Line train from Mallaig to Fort William, over the famous Glenfinnan viaduct - the route to Hogwarts!",
-        "additionalInformation": null,
         "fromPlace": {
           "id": 7,
           "regionIds": [1],
@@ -705,35 +569,31 @@
           "image": "https://uploads-ssl.webflow.com/5e709c90bf3d8e4bba851ecb/605a669e02306c532cc10d93_fortwill.PNG"
         },
         "numberOfNights": 0,
-        "transportDirection": "INTRA_REGION",
         "images": [
+          {
+            "url": "https://images.unsplash.com/photo-1505832018823-50331d70d237?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1508&q=80",
+            "tag": null,
+            "source": null,
+            "credit": null
+          },
           {
             "url": "https://uploads-ssl.webflow.com/5e709c90bf3d8e4bba851ecb/5f19cb8ccd6dfd7e7351df44_skye%20to%20fortwill.jpeg",
             "tag": null,
             "source": null,
             "credit": null
           }
-        ],
-        "simpleItineraryItems": null
+        ]
       },
       {
         "@type": "Leg",
         "itemStartDate": "2022-06-14",
         "itemEndDate": "2022-06-15",
-        "status": "TO_BE_CONFIRMED",
-        "bookingConfirmationNumber": null,
-        "voucher": null,
-        "paymentStatus": "PREPAY",
-        "nett": { "currencyId": "GBP", "value": 280.0 },
-        "retail": { "currencyId": "GBP", "value": 280.0 },
         "itemId": 11,
         "id": "S5999",
         "estimatedMinutes": 719,
         "estimatedDistance": 0,
         "title": null,
-        "interRegion": true,
         "description": "The journey starts with an evening crossing of Rannoch Moor. If it’s still light, enjoy a feast of fine scenery then snooze your way south in a comfortable private sleeping cabin to reach London in time for breakfast. ",
-        "additionalInformation": null,
         "fromPlace": {
           "id": 1,
           "regionIds": [1],
@@ -751,7 +611,6 @@
           "image": "https://uploads-ssl.webflow.com/5e709c90bf3d8e4bba851ecb/6082cc687ef7eb05e1b2a9db_hugo-sousa-1Z7QDZqT2QQ-unsplash%20(1)%20(1).jpg"
         },
         "numberOfNights": 1,
-        "transportDirection": "FROM_REGION",
         "images": [
           {
             "url": "https://uploads-ssl.webflow.com/5e709c90bf3d8e4bba851ecb/5f19654c77a6a10ff105afe2_sleeper.png",
@@ -759,70 +618,9 @@
             "source": null,
             "credit": null
           }
-        ],
-        "simpleItineraryItems": null
+        ]
       }
     ],
-    "scoringExplanation": [
-      "792 possible journeys evaluated from 14 places (11 suitable places) in 464 milliseconds",
-      "Total score for this journey is 6145.94200",
-      "....zoomFactorDeviation score -163.05800",
-      "......maximumNearestNeighbour= 137.00 (note we still need to incorporate this into scoring - too high = bad score",
-      "......requiredRoutes= 3",
-      "......averageTravel= 435.6700",
-      "......zoomFactor= 120",
-      "......zoomFactorDeviation= (120 - (ABS(120 - 435.6700))) / 120 * 100 = -163.05800",
-      "....nearPlaceRepulsion score -300",
-      "......minimumNearestNeighbourDistance= 102.67",
-      "......nearPlaceRepulsion= -300",
-      "....interest score 6899",
-      "......interest on Glasgow = 1333",
-      "........based on activity 'Glasgow_tea house' with activity score 200 and timeguideline COUPLE_OF_HOURS",
-      "........based on activity 'Glasgow_art' with activity score 100 and timeguideline HALF_DAY",
-      "........based on activity 'Glasgow_nightlife' with activity score 100 and timeguideline EVENING",
-      "........based on activity 'Glasgow_clubs' with activity score 100 and timeguideline EVENING",
-      "........based on activity 'Glasgow_galleries' with activity score 100 and timeguideline HALF_DAY",
-      "........and pure place attribute score 400",
-      "........and over 3 nights",
-      "......interest on Craignure, Isle of Mull = 1416",
-      "........based on activity 'Mull_nature' with activity score 100 and timeguideline FULL_DAY",
-      "........based on activity 'Mull_Ross of Mull' with activity score 100 and timeguideline FULL_DAY",
-      "........based on activity 'Mull_standing stones' with activity score 100 and timeguideline HALF_DAY",
-      "........based on activity 'Mull_Iona' with activity score 200 and timeguideline FULL_DAY",
-      "........based on activity 'Mull_island hop' with activity score 200 and timeguideline FULL_DAY",
-      "........based on activity 'Tobermory_Mishnish' with activity score 300 and timeguideline EVENING",
-      "........based on activity 'Mull_Nc'nean distillery' with activity score 200 and timeguideline HALF_DAY",
-      "........and pure place attribute score 200",
-      "........and over 4 nights",
-      "......interest on Tobermory, Isle of Mull = 2250",
-      "........based on activity 'Mull_nature' with activity score 100 and timeguideline FULL_DAY",
-      "........based on activity 'Mull_Ross of Mull' with activity score 100 and timeguideline FULL_DAY",
-      "........based on activity 'Mull_standing stones' with activity score 100 and timeguideline HALF_DAY",
-      "........based on activity 'Mull_Iona' with activity score 200 and timeguideline FULL_DAY",
-      "........based on activity 'Mull_island hop' with activity score 200 and timeguideline FULL_DAY",
-      "........based on activity 'Tobermory_Mishnish' with activity score 300 and timeguideline EVENING",
-      "........based on activity 'Mull_Nc'nean distillery' with activity score 200 and timeguideline HALF_DAY",
-      "........and pure place attribute score 600",
-      "........and over 4 nights",
-      "......interest on Portree, Isle of Skye = 1900",
-      "........based on activity 'Skye_general' with activity score 100 and timeguideline FULL_DAY",
-      "........based on activity 'Skye_Eilean Donan' with activity score 400 and timeguideline COUPLE_OF_HOURS",
-      "........based on activity 'Skye_walking' with activity score 100 and timeguideline HALF_DAY",
-      "........based on activity 'Skye_whisky' with activity score 100 and timeguideline HALF_DAY",
-      "........based on activity 'Skye_adventure' with activity score 100 and timeguideline HALF_DAY",
-      "........and pure place attribute score 600",
-      "........and over 3 nights",
-      "....deviationFromRecommended score -250",
-      "......subtract 50 since Craignure, Isle of Mull is not using recommended nights of 3, instead has 4",
-      "......subtract 150 since Glasgow is not using recommended nights of 0, instead has 3",
-      "......subtract 50 since Tobermory, Isle of Mull is not using recommended nights of 3, instead has 4",
-      "....deviationFromBusyness score -40",
-      "......subtract -20 since Craignure, Isle of Mull is not using busyness nights of 3, instead has 4",
-      "......subtract -20 since Tobermory, Isle of Mull is not using busyness nights of 3, instead has 4",
-      "....shortStayPenalty 0"
-    ],
     "journeyTitle": "Your journey to The Highlands"
-  },
-  "errorCode": null,
-  "errorMessage": null
+  }
 }
