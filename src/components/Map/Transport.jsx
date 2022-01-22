@@ -45,7 +45,9 @@ export default function Transport() {
         )
 
         const options = {
-          obj: '/models/train/scene.gltf',
+          obj: `${
+            import.meta.env.VITE_BASE_PATH || '/'
+          }models/train/scene.gltf`,
           type: 'gltf',
           scale: distanceInKm / 100,
           units: 'meters',
