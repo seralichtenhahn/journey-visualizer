@@ -12,7 +12,7 @@ export default function ImagesModal({ images, open, onClose }) {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
-    className: '',
+    className: 'h-[40vh]',
     variableWidth: true,
   }
 
@@ -51,14 +51,14 @@ export default function ImagesModal({ images, open, onClose }) {
                 className="absolute top-0 z-10 p-4 text-gray-500 transform -translate-y-1/2 border border-white rounded-full right-8"
               >
                 <span className="sr-only">back to main content</span>
-                <IconClose className="w-6 h-6" />
+                <IconClose className="w-6 h-6 text-white" />
               </button>
               <div>
                 <Slider {...settings}>
                   {images.map((image) => (
                     <img
                       key={`modal-${image.url}`}
-                      className="h-[40vh] w-auto pl-8"
+                      className="w-auto max-w-[90vw] object-cover h-full pl-8"
                       src={image.url}
                       alt={image.tag}
                     />
