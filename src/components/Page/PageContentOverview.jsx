@@ -1,5 +1,7 @@
-import IconTag from '@/components/Common/IconTag'
 import React, { forwardRef } from 'react'
+
+import IconTag from '@/components/Common/IconTag'
+import PageContentShell from './PageContentShell'
 import { format } from 'date-fns'
 import journey from '@/assets/data/journey.json'
 
@@ -17,10 +19,7 @@ const PageContentOverview = forwardRef((props, ref) => {
   )
 
   return (
-    <div
-      ref={ref}
-      className="flex flex-col h-full px-4 pt-8 overflow-y-scroll bg-white md:px-0 md:pt-0 md:overflow-y-auto md:bg-transparent rounded-xl md:rounded-none md:justify-center"
-    >
+    <PageContentShell ref={ref}>
       <h1 className="font-serif text-4xl font-bold md:leading-relaxed xl:text-6xl xl:leading-tight">
         {journeyTitle}
       </h1>
@@ -40,7 +39,7 @@ const PageContentOverview = forwardRef((props, ref) => {
           </li>
         </ul>
       </div>
-    </div>
+    </PageContentShell>
   )
 })
 

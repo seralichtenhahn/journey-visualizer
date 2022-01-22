@@ -1,11 +1,12 @@
+import React, { Fragment, useEffect, useMemo, useRef, useState } from 'react'
+
 import PageContentLeg from '@/components/Page/PageContentLeg'
 import PageContentOverview from '@/components/Page/PageContentOverview'
 import PageContentStay from '@/components/Page/PageContentStay'
 import PageContentStop from '@/components/Page/PageContentStop'
-import React, { useState, useEffect, useMemo, useRef, Fragment } from 'react'
-import usePageData from '@/hooks/usePageData'
 import { Transition } from '@headlessui/react'
 import journey from '@/assets/data/journey.json'
+import usePageData from '@/hooks/usePageData'
 
 const ContentTypes = {
   Leg: PageContentLeg,
@@ -24,7 +25,6 @@ export default function PageContent() {
     }
 
     const item = journey.data.journeyItems[nextPage - 1]
-
     const ContentComponent = ContentTypes[item['@type']]
 
     return <ContentComponent {...item} />
