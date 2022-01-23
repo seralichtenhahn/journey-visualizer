@@ -1,3 +1,7 @@
+# My Favourite Holiday
+
+**Portfolio Website** - Coding Three: Web Development Studio
+
 ## Project config
 
 - **[yarn](https://github.com/yarnpkg/berry)** - package manager
